@@ -1,0 +1,116 @@
+article, aside, details, figcaption, figure, 
+footer, hgroup, menu, nav, section {
+	display: block;
+}
+html{
+	margin: 0;
+	background-color:#66FFFF;
+
+  min-width: 960px;
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+square {
+  fill: none;
+  stroke-width: 2.5px;
+}
+
+
+}
+body{
+	width:800px;
+	}
+ 
+
+
+
+#header{
+	height: 100%;
+	border-radius: 10px;
+	padding: 20px;
+	font-size:16px;
+
+
+	font-family: Arial;
+}
+#content{
+	float:left;
+	width:75%;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+#aside{
+	height:100%;
+	width:20%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	float:right;
+
+}
+
+.article{
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height:100%;
+	border-radius: 10px;
+
+}
+
+.article_header {
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+.article_image1{ 
+width: 1000;
+                 
+   height: 1000;
+                 }
+.article_image{
+	width: 400px;
+	height: 400px;
+	float:left;
+	margin: 0px 15px 0px 0px;
+}.article_image3{
+	width: 200px;
+	height: 200px;
+	float:left;
+	margin: 0px 15px 0px 0px;
+}
+
+
+.section{
+	height:100%;
+	width:50%;
+	text-align: center;
+	background-color: blue;
+	border-radius: 10px;	
+}
+
+html{
+	display: table;
+	margin:auto;
+}
+
+
+#footer{
+border-radius: 10px;
+	padding:20px;
+	height:100%;
+	font-size: 1.3em;
+	text-align: left;
+	clear:both;
+
+}
